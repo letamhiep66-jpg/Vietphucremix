@@ -1,0 +1,6 @@
+{
+  "summary":  "Kế hoạch chi tiết triển khai tính năng tải ảnh bộ đồ tự phối / tự thiết kế lên chấm điểm và nhận xét chuyên sâu bởi AI:\n- Hiển thị tab 'Chấm điểm' trên cả Navbar (Desktop/Tablet) và BottomNav (Mobile), cùng chế độ chuyển nhanh ngay trong Xưởng Phối Đồ.\n- Hỗ trợ 3 nguồn nhập ảnh: Tải tệp từ máy, Chụp ảnh trực tiếp qua Camera, và Đưa trực tiếp bộ đồ vừa phối trên bàn vẽ Canvas 2D sang chấm điểm.\n- AI Gemini phân tích đa phương thức (Multimodal) chấm điểm 4 khía cạnh: Độ hài hòa, Điển chế di sản, Phụ kiện, và Độ phù hợp bối cảnh, kèm lời khuyên nâng tầm trang phục.",
+  "updatedAt":  "2026-09-28T09:53:58.331538332Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+  }
+
+  body {
+    font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, .font-heritage {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-viet-vintage {
+    font-family: 'Playfair Display', 'Cormorant Garamond', 'Times New Roman', Georgia, serif;
+  }
+
+  .font-lavis {
+    font-family: 'Lavishly Yours', 'Lavis', 'Alex Brush', 'Pinyon Script', 'Great Vibes', cursive;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbb9a1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9b2226;
+}
+
+/* Custom Leaflet Map styling */
+.leaflet-popup-content-wrapper {
+  padding: 0 !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+  overflow: hidden !important;
+  border: 1px solid #E9DFD1 !important;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  line-height: normal !important;
+}
+
+.leaflet-popup-tip {
+  background: white !important;
+  border: 1px solid #E9DFD1 !important;
+}
+
+.custom-leaflet-marker {
+  background: transparent;
+  border: none;
+}
